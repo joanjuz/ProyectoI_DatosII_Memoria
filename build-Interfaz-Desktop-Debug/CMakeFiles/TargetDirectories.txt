@@ -1,0 +1,4 @@
+/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz.dir
+/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz_autogen.dir
