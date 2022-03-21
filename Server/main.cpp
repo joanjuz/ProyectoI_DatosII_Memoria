@@ -4,14 +4,19 @@
 #include <string.h>
 #include <sys/socket.h>
 #include <stdlib.h>
+#include <arpa/inet.h>
+#include <errno.h>
+
 #define PORT 8080
 
-int main (int argument, char const *argv[]){
-    
+
+int main (int argc, char const *argv[]){
     int obj_server, sock, reader;
     struct sockaddr_in address;
+    struct client;
     int opted = 1;
     int address_length = sizeof(address);
+    unsigned int len;
     char buffer[1024] = {0};
     char *message ="Mensaje del servidor !";
 
@@ -32,13 +37,30 @@ int main (int argument, char const *argv[]){
     }if (listen(obj_server, 3)< 0){
         perror("Cant listen from the server !");
         exit(EXIT_FAILURE);
-    }if ((sock=accept(obj_server,(struct sockaddr *)&address,(socklen_t*)&address_length))<0){
-        perror("Accept");
-        exit(EXIT_FAILURE);
     }
-    reader = read(sock, buffer, 1024);
-    printf("%s\n", buffer);
-    send(sock,message, strlen(message), 0);
-    printf ("Server : Mensaje enviado! \n");
+    while(1){
+        if ((sock=accept(obj_server,(struct sockaddr *)&address,(socklen_t*)&address_length))<0){
+            perror("Accept");
+            exit(EXIT_FAILURE);
+        }
+        while(1){
+            reader = read(sock, buffer, 1024);
+            if(reader == -1){
+                perror("[SERVER ERROR]");
+                
+            }
+            else if (reader == 0){
+                perror("Client socket closed");
+                close(sock);
+                break;
+            }
+            else{
+            printf("%s\n", buffer);
+            send(sock,message, strlen(message), 0);
+            printf ("Server : Mensaje enviado! \n");
+            }
+        }
+    }
+    
 }
     
