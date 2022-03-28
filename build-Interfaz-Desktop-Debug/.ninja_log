@@ -1,0 +1,9 @@
+# ninja log v5
+1	375	0	/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/mocs_compilation.cpp	625458282cd17b28
+1	375	0	/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz_autogen	625458282cd17b28
+1	375	0	Interfaz_autogen/include/ui_main.h	625458282cd17b28
+1	375	0	/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/include/ui_main.h	625458282cd17b28
+375	2196	1648428458330933680	CMakeFiles/Interfaz.dir/main.cpp.o	387ca627cb484c24
+1	375	0	CMakeFiles/Interfaz_autogen	625458282cd17b28
+1	375	0	Interfaz_autogen/mocs_compilation.cpp	625458282cd17b28
+375	2200	1648428458330933680	CMakeFiles/Interfaz.dir/Interfaz_autogen/mocs_compilation.cpp.o	4d6fd1fc88aac58
