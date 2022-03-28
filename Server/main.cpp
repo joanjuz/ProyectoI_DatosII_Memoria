@@ -11,6 +11,8 @@
 
 
 int main (int argc, char const *argv[]){
+
+    //Server
     int obj_server, sock, reader;
     struct sockaddr_in address;
     struct client;
