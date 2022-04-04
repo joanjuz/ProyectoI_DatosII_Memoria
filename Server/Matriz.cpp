@@ -1,9 +1,17 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <netinet/in.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <stdlib.h>
+#include <arpa/inet.h>
+#include <errno.h>
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <cstdio>
 using namespace std;
-public void matriz(){
-    string MatrizImgs[30][2];//Matriz con 30 imagenes, con Nombre, Imagen
+
+string* getmatriz(){
+    string* MAtrizImgs[30][2];//Matriz con 30 imagenes, con Nombre, Imagen
     MatrizImgs[0][0] = "P1 (1)";
     MatrizImgs[0][1] = "../Images/P1 (1).jpg";
     MatrizImgs[1][0] = "P1 (29)";
@@ -64,7 +72,6 @@ public void matriz(){
     MatrizImgs[28][1] = "../Images/P1 (56).jpg";
     MatrizImgs[29][0] = "P1 (57)";
     MatrizImgs[29][1] = "../Images/P1 (57).jpg";
+    return MAtrizImgs;
 
-    std:: cout << MatrizImgs[1][0] << '\n';
-    return MatrizImgs;
 }

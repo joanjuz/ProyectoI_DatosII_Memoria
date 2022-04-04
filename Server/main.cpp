@@ -6,11 +6,14 @@
 #include <stdlib.h>
 #include <arpa/inet.h>
 #include <errno.h>
+#include "Matriz.cpp"
 
 #define PORT 8080
 
-
 int main (int argc, char const *argv[]){
+
+    int a = matriz();
+    std::cout << a << "\n";
 
     //Server
     int obj_server, sock, reader;
@@ -60,6 +63,8 @@ int main (int argc, char const *argv[]){
             printf("%s\n", buffer);
             send(sock,message, strlen(message), 0);
             printf ("Server : Mensaje enviado! \n");
+
+            std::cout << a << "\n";
             }
         }
     }
