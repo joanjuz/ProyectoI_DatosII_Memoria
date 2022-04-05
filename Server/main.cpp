@@ -13,7 +13,10 @@
 int main (int argc, char const *argv[]){
     string memoria[30][2];
     auto al = getmatriz(memoria);
-    std::cout << "al31: " << al[3][1] << "\n";
+    /*
+    for (int i = 0; i < 10; i++){
+        cout << al[i][0] << "\n";
+    }*/
 
     //Server
     int obj_server, sock, reader;
@@ -62,10 +65,14 @@ int main (int argc, char const *argv[]){
             else{
             printf("%s\n", buffer);
             send(sock,message, strlen(message), 0);
-            printf ("Server : Mensaje enviado! \n");
-
-            std::cout << a << "\n";
+            printf ("Servidor : Mensaje enviado! \n");
+            if (string(buffer) == "Hola!"){
+                printf("%s\n","true");
+            }else{
+                printf("%s\n","False");
+                }
             }
+            cout << string(buffer) << "\n";
         }
     }
     
