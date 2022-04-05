@@ -11,9 +11,9 @@
 #define PORT 8080
 
 int main (int argc, char const *argv[]){
-
-    int a = matriz();
-    std::cout << a << "\n";
+    string memoria[30][2];
+    auto al = getmatriz(memoria);
+    std::cout << "al31: " << al[3][1] << "\n";
 
     //Server
     int obj_server, sock, reader;
@@ -23,7 +23,7 @@ int main (int argc, char const *argv[]){
     int address_length = sizeof(address);
     unsigned int len;
     char buffer[1024] = {0};
-    char *message ="Mensaje del servidor !";
+    char *message = "Mensaje del servidor !";
 
     if ((obj_server = socket(AF_INET, SOCK_STREAM, 0)) == 0){
         perror("Error al abrir el socket");

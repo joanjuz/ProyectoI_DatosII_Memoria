@@ -10,8 +10,9 @@
 #include <cstdio>
 using namespace std;
 
-string* getmatriz(){
-    string* MAtrizImgs[30][2];//Matriz con 30 imagenes, con Nombre, Imagen
+auto getmatriz(auto memory){
+    string MatrizImgs[30][2];//Matriz con 30 imagenes, con Nombre, Imagen
+    string* ptr = *MatrizImgs;
     MatrizImgs[0][0] = "P1 (1)";
     MatrizImgs[0][1] = "../Images/P1 (1).jpg";
     MatrizImgs[1][0] = "P1 (29)";
@@ -72,6 +73,6 @@ string* getmatriz(){
     MatrizImgs[28][1] = "../Images/P1 (56).jpg";
     MatrizImgs[29][0] = "P1 (57)";
     MatrizImgs[29][1] = "../Images/P1 (57).jpg";
-    return MAtrizImgs;
-
+    memory = MatrizImgs;
+    return memory;
 }
