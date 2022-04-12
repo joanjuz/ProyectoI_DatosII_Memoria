@@ -10,7 +10,7 @@
 int main(int argument, char const *argv[]){
     int obj_socket = 0, reader;
     struct sockaddr_in serv_addr;
-    char *message = "Mensaje del cliente !";
+    char *message = "Hola!";
     char buffer[1024] = {0};
 
     if ((obj_socket = socket (AF_INET, SOCK_STREAM, 0))< 0){
