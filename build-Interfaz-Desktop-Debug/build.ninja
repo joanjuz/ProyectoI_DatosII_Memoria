@@ -89,6 +89,14 @@ build CMakeFiles/Interfaz.dir/main.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joa
   OBJECT_DIR = CMakeFiles/Interfaz.dir
   OBJECT_FILE_DIR = CMakeFiles/Interfaz.dir
 
+build CMakeFiles/Interfaz.dir/mainwindow.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/mainwindow.cpp || cmake_object_order_depends_target_Interfaz
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Interfaz.dir/mainwindow.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++11
+  INCLUDES = -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/Interfaz.dir
+  OBJECT_FILE_DIR = CMakeFiles/Interfaz.dir
+
 build CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp || cmake_object_order_depends_target_Interfaz
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o.d
@@ -105,7 +113,7 @@ build CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o: CX
 #############################################
 # Link the executable Interfaz
 
-build Interfaz: CXX_EXECUTABLE_LINKER__Interfaz_Debug CMakeFiles/Interfaz.dir/Interfaz_autogen/mocs_compilation.cpp.o CMakeFiles/Interfaz.dir/main.cpp.o CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 || Interfaz_autogen
+build Interfaz: CXX_EXECUTABLE_LINKER__Interfaz_Debug CMakeFiles/Interfaz.dir/Interfaz_autogen/mocs_compilation.cpp.o CMakeFiles/Interfaz.dir/main.cpp.o CMakeFiles/Interfaz.dir/mainwindow.cpp.o CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 || Interfaz_autogen
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
   OBJECT_DIR = CMakeFiles/Interfaz.dir
@@ -118,7 +126,7 @@ build Interfaz: CXX_EXECUTABLE_LINKER__Interfaz_Debug CMakeFiles/Interfaz.dir/In
 #############################################
 # Utility command for Interfaz_autogen
 
-build Interfaz_autogen: phony CMakeFiles/Interfaz_autogen Interfaz_autogen/mocs_compilation.cpp Interfaz_autogen/include/ui_main.h
+build Interfaz_autogen: phony CMakeFiles/Interfaz_autogen Interfaz_autogen/mocs_compilation.cpp Interfaz_autogen/include/ui_mainwindow.h
 
 
 #############################################
@@ -133,7 +141,7 @@ build Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp | ${cmake_ninja_workdir}Inter
 #############################################
 # Custom command for CMakeFiles/Interfaz_autogen
 
-build CMakeFiles/Interfaz_autogen Interfaz_autogen/mocs_compilation.cpp Interfaz_autogen/include/ui_main.h | ${cmake_ninja_workdir}CMakeFiles/Interfaz_autogen ${cmake_ninja_workdir}Interfaz_autogen/mocs_compilation.cpp ${cmake_ninja_workdir}Interfaz_autogen/include/ui_main.h: CUSTOM_COMMAND
+build CMakeFiles/Interfaz_autogen Interfaz_autogen/mocs_compilation.cpp Interfaz_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/Interfaz_autogen ${cmake_ninja_workdir}Interfaz_autogen/mocs_compilation.cpp ${cmake_ninja_workdir}Interfaz_autogen/include/ui_mainwindow.h: CUSTOM_COMMAND
   COMMAND = cd /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug && /home/joan/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz_autogen.dir/AutogenInfo.json Debug
   DESC = Automatic MOC and UIC for target Interfaz
   restat = 1

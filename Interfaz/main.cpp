@@ -1,23 +1,11 @@
-#include "main.h"
-#include "./ui_main.h"
-#include <iostream>
-#include <QDebug>
-#include<qapplication.h>
-#include<qpushbutton.h>
+#include "mainwindow.h"
 
-Main::Main(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::Main)
-{
-    ui->setupUi(this);
-}
-Main::~Main()
-{
-    delete ui;
-}
+#include <QApplication>
 
-
-void Main::on_pushButton_clicked()
+int main(int argc, char *argv[])
 {
-    std::cout << "Hola" << "\n";
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+    return a.exec();
 }

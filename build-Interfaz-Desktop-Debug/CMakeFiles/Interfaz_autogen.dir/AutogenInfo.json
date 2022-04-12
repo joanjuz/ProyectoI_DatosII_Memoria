@@ -75,9 +75,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/main.h",
+			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_main.cpp",
+			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
@@ -135,6 +135,11 @@
 	[
 		[
 			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/mainwindow.cpp",
 			"MU",
 			null
 		]
