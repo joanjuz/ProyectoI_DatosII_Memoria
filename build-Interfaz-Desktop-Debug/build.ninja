@@ -76,7 +76,7 @@ build cmake_object_order_depends_target_Interfaz: phony || Interfaz_autogen Inte
 build CMakeFiles/Interfaz.dir/Interfaz_autogen/mocs_compilation.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Interfaz
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Interfaz.dir/Interfaz_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++11
+  FLAGS = -DQT_QML_DEBUG -g -DQT_QML_DEBUG -fPIC -std=gnu++11
   INCLUDES = -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/Interfaz.dir
   OBJECT_FILE_DIR = CMakeFiles/Interfaz.dir/Interfaz_autogen
@@ -84,7 +84,7 @@ build CMakeFiles/Interfaz.dir/Interfaz_autogen/mocs_compilation.cpp.o: CXX_COMPI
 build CMakeFiles/Interfaz.dir/main.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/main.cpp || cmake_object_order_depends_target_Interfaz
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Interfaz.dir/main.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++11
+  FLAGS = -DQT_QML_DEBUG -g -DQT_QML_DEBUG -fPIC -std=gnu++11
   INCLUDES = -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/Interfaz.dir
   OBJECT_FILE_DIR = CMakeFiles/Interfaz.dir
@@ -92,7 +92,7 @@ build CMakeFiles/Interfaz.dir/main.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joa
 build CMakeFiles/Interfaz.dir/mainwindow.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/mainwindow.cpp || cmake_object_order_depends_target_Interfaz
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Interfaz.dir/mainwindow.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++11
+  FLAGS = -DQT_QML_DEBUG -g -DQT_QML_DEBUG -fPIC -std=gnu++11
   INCLUDES = -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/Interfaz.dir
   OBJECT_FILE_DIR = CMakeFiles/Interfaz.dir
@@ -100,7 +100,7 @@ build CMakeFiles/Interfaz.dir/mainwindow.cpp.o: CXX_COMPILER__Interfaz_Debug /ho
 build CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o: CXX_COMPILER__Interfaz_Debug /home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp || cmake_object_order_depends_target_Interfaz
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++11
+  FLAGS = -DQT_QML_DEBUG -g -DQT_QML_DEBUG -fPIC -std=gnu++11
   INCLUDES = -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz -I/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/Interfaz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/Interfaz.dir
   OBJECT_FILE_DIR = CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW
@@ -114,7 +114,7 @@ build CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o: CX
 # Link the executable Interfaz
 
 build Interfaz: CXX_EXECUTABLE_LINKER__Interfaz_Debug CMakeFiles/Interfaz.dir/Interfaz_autogen/mocs_compilation.cpp.o CMakeFiles/Interfaz.dir/main.cpp.o CMakeFiles/Interfaz.dir/mainwindow.cpp.o CMakeFiles/Interfaz.dir/Interfaz_autogen/EWIEGA46WW/qrc_Imagenes.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 || Interfaz_autogen
-  FLAGS = -g
+  FLAGS = -DQT_QML_DEBUG -g -DQT_QML_DEBUG
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
   OBJECT_DIR = CMakeFiles/Interfaz.dir
   POST_BUILD = :

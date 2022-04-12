@@ -24,10 +24,16 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/Images/P1 (0).jpg);</string>
+     <string notr="true">image: url(:/Images/P1 (0).jpg);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>151</width>
+      <height>151</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">

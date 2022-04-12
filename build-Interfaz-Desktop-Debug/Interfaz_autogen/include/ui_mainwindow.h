@@ -84,17 +84,18 @@ public:
     QPushButton *pushButton_60;
     QStatusBar *statusbar;
 
-    void setupUi(QMainWindow *Main)
+    void setupUi(QMainWindow *MainWindow)
     {
-        if (Main->objectName().isEmpty())
-            Main->setObjectName(QString::fromUtf8("Main"));
-        Main->resize(1920, 1080);
-        centralwidget = new QWidget(Main);
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(1920, 1080);
+        centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(90, 110, 141, 141));
-        pushButton->setStyleSheet(QString::fromUtf8("background-image: url(:/Images/P1 (0).jpg);"));
+        pushButton->setStyleSheet(QString::fromUtf8("image: url(:/Images/P1 (0).jpg);"));
+        pushButton->setIconSize(QSize(151, 151));
         pushButton_2 = new QPushButton(centralwidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(260, 110, 141, 141));
@@ -331,19 +332,19 @@ public:
         pushButton_60->setObjectName(QString::fromUtf8("pushButton_60"));
         pushButton_60->setGeometry(QRect(420, 910, 141, 141));
         pushButton_60->setStyleSheet(QString::fromUtf8("background-image: url(:/Images/P1 (0).jpg);"));
-        Main->setCentralWidget(centralwidget);
-        statusbar = new QStatusBar(Main);
+        MainWindow->setCentralWidget(centralwidget);
+        statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
-        Main->setStatusBar(statusbar);
+        MainWindow->setStatusBar(statusbar);
 
-        retranslateUi(Main);
+        retranslateUi(MainWindow);
 
-        QMetaObject::connectSlotsByName(Main);
+        QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
-    void retranslateUi(QMainWindow *Main)
+    void retranslateUi(QMainWindow *MainWindow)
     {
-        Main->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton->setText(QString());
         pushButton_2->setText(QString());
         pushButton_3->setText(QString());

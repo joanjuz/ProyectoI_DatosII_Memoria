@@ -187,11 +187,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during all build types."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-DQT_QML_DEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
@@ -203,11 +203,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during DEBUG builds."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : "-g"
+			"value" : "-g -DQT_QML_DEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -251,11 +251,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O2 -g -DNDEBUG"
+			"value" : "-O2 -g -DNDEBUG -DQT_QML_DEBUG"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
