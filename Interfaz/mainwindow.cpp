@@ -20,6 +20,4 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    this->setStyleSheet("QWidget{background-image:url(:/Images/P1 (0).jpg);}");
 }
-
