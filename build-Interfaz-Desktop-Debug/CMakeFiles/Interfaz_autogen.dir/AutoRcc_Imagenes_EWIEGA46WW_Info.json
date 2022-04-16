@@ -37,7 +37,9 @@
 		"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Images/P1 (6).png",
 		"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Images/P1 (24).png",
 		"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Images/P1 (14).png",
-		"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Images/P1 (5).png"
+		"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Images/P1 (5).png",
+		"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Client/main",
+		"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Client/main.cpp"
 	],
 	"LOCK_FILE" : "/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz_autogen.dir/AutoRcc_Imagenes_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

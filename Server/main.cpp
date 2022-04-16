@@ -26,7 +26,7 @@ int main (int argc, char const *argv[]){
     int address_length = sizeof(address);
     unsigned int len;
     char buffer[1024] = {0};
-    char *message = "Mensaje del servidor !";
+    char *message = ":/Images/P1 (3).png";
 
     if ((obj_server = socket(AF_INET, SOCK_STREAM, 0)) == 0){
         perror("Error al abrir el socket");
@@ -63,14 +63,16 @@ int main (int argc, char const *argv[]){
                 break;
             }
             else{
-            printf("%s\n", buffer);
-            send(sock,message, strlen(message), 0);
             printf ("Servidor : Mensaje enviado! \n");
-            if (string(buffer) == "Hola!"){
+            if (string(buffer) == "Button2"){
+                message = ":/Images/P1 (7).png";
                 printf("%s\n","true");
             }else{
+                message = ":/Images/P1 (3).png";
                 printf("%s\n","False");
                 }
+            printf("%s\n", buffer);
+            send(sock,message, strlen(message), 0);
             }
             cout << string(buffer) << "\n";
         }

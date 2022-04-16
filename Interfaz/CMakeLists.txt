@@ -20,6 +20,8 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         Imagenes.qrc
+        client.h
+        client.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

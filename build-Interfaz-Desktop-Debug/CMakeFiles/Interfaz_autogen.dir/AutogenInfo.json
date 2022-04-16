@@ -75,6 +75,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/client.h",
+			"MU",
+			"EWIEGA46WW/moc_client.cpp",
+			null
+		],
+		[
 			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -133,6 +139,11 @@
 	"SETTINGS_FILE" : "/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/client.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/joan/Documentos/Proyectos/ProyectoI_DatosII_Memoria/Interfaz/main.cpp",
 			"MU",
