@@ -6,12 +6,32 @@
 #include <stdlib.h>
 #include <arpa/inet.h>
 #include <errno.h>
+#include <time.h>
 #include <iostream>
 #include <cstdio>
+#include "Mpaginada.cpp"
+#include <map>
 using namespace std;
 
 auto getmatriz(string memory[30][2]){
     string MatrizImgs[30][2];//Matriz con 30 imagenes, con Nombre, Imagen
+    int cartas = 29;
+    int cartascargadas = 0;
+    map<int,Cartas> mPaginada;
+    for (int id = 0; id == cartas;id++){
+        Cartas carta;
+        if(cartascargadas<10){
+            carta.setid(id);
+            carta.setopen(false);
+            carta.setimage();
+            setCartaM(id,carta,mPaginada);
+        }else{
+            carta.setid(id);
+            carta.setopen(false);
+        }
+    }
+    return mPaginada;
+    /*
     string* ptr = *MatrizImgs;
     MatrizImgs[0][0] = "P1 (1)";
     MatrizImgs[0][1] = "../Images/P1 (1).jpg";
@@ -33,6 +53,7 @@ auto getmatriz(string memory[30][2]){
     MatrizImgs[8][1] = "../Images/P1 (36).jpg";
     MatrizImgs[9][0] = "P1 (37)";
     MatrizImgs[9][1] = "../Images/P1 (37).jpg";
+    */
     /*
     MatrizImgs[10][0] = "P1 (38)";
     MatrizImgs[10][1] = "../Images/P1 (38).jpg";
@@ -75,6 +96,4 @@ auto getmatriz(string memory[30][2]){
     MatrizImgs[29][0] = "P1 (57)";
     MatrizImgs[29][1] = "../Images/P1 (57).jpg";
     */
-    memory = MatrizImgs;
-    return memory;
 }
