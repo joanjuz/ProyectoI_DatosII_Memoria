@@ -17,10 +17,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>240</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -32,18 +32,18 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="iconSize">
      <size>
-      <width>151</width>
-      <height>151</height>
+      <width>101</width>
+      <height>101</height>
      </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button3">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>460</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -51,15 +51,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button4">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>570</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -67,15 +73,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button5">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>680</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -83,15 +95,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button6">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>790</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -99,15 +117,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button7">
     <property name="geometry">
      <rect>
-      <x>1110</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>900</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -115,15 +139,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button8">
     <property name="geometry">
      <rect>
-      <x>1280</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1010</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -131,15 +161,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button11">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>240</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -147,15 +183,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button21">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>240</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -163,15 +205,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button31">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>240</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -179,15 +227,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button41">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>240</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -195,15 +249,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button51">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>240</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -211,15 +271,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button9">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1120</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -227,15 +293,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button10">
     <property name="geometry">
      <rect>
-      <x>1620</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1230</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -243,15 +315,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button12">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>350</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -259,15 +337,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button13">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>460</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -275,15 +359,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button14">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>570</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -291,15 +381,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button15">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>680</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -307,15 +403,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button16">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>790</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -323,15 +425,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button17">
     <property name="geometry">
      <rect>
-      <x>1110</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>900</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -339,15 +447,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button18">
     <property name="geometry">
      <rect>
-      <x>1280</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1010</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -355,15 +469,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button19">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1120</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -371,15 +491,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button20">
     <property name="geometry">
      <rect>
-      <x>1620</x>
-      <y>270</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1230</x>
+      <y>180</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -387,15 +513,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button22">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>900</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -403,15 +535,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button23">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>350</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -419,15 +557,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button24">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>460</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -435,15 +579,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button25">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>570</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -451,15 +601,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button26">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>680</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -467,15 +623,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button27">
     <property name="geometry">
      <rect>
-      <x>1110</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>790</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -483,15 +645,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button28">
     <property name="geometry">
      <rect>
-      <x>1280</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1010</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -499,15 +667,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button29">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1120</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -515,15 +689,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button30">
     <property name="geometry">
      <rect>
-      <x>1620</x>
-      <y>430</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1230</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -531,15 +711,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button39">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1120</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -547,15 +733,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button40">
     <property name="geometry">
      <rect>
-      <x>1620</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1230</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -563,15 +755,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button34">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>570</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -579,15 +777,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button35">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>680</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -595,15 +799,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button38">
     <property name="geometry">
      <rect>
-      <x>1280</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1010</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -611,15 +821,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button36">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>790</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -627,15 +843,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button37">
     <property name="geometry">
      <rect>
-      <x>1110</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>900</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -643,15 +865,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button49">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1120</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -659,15 +887,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button50">
     <property name="geometry">
      <rect>
-      <x>1620</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1230</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -675,15 +909,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button44">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>570</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -691,15 +931,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button45">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>680</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -707,15 +953,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button48">
     <property name="geometry">
      <rect>
-      <x>1280</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1010</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -723,15 +975,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button46">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>790</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -739,15 +997,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button47">
     <property name="geometry">
      <rect>
-      <x>1110</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>900</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -755,15 +1019,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button59">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1120</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -771,15 +1041,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button60">
     <property name="geometry">
      <rect>
-      <x>1620</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1230</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -787,15 +1063,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button54">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>570</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -803,15 +1085,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button55">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>680</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -819,15 +1107,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button58">
     <property name="geometry">
      <rect>
-      <x>1280</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>1010</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -835,15 +1129,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button56">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>790</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -851,15 +1151,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button57">
     <property name="geometry">
      <rect>
-      <x>1110</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>900</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -867,15 +1173,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button32">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>350</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -883,15 +1195,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button33">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>590</y>
-      <width>141</width>
-      <height>141</height>
+      <x>460</x>
+      <y>400</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -899,15 +1217,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button42">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>350</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -915,15 +1239,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button43">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>750</y>
-      <width>141</width>
-      <height>141</height>
+      <x>460</x>
+      <y>510</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -931,15 +1261,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button52">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>350</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -947,15 +1283,21 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="Button53">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>910</y>
-      <width>141</width>
-      <height>141</height>
+      <x>460</x>
+      <y>620</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -964,14 +1306,20 @@ background-image: url(:/Images/P1 (0).png);</string>
     <property name="text">
      <string/>
     </property>
+    <property name="iconSize">
+     <size>
+      <width>101</width>
+      <height>101</height>
+     </size>
+    </property>
    </widget>
    <widget class="QPushButton" name="Button2">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>110</y>
-      <width>141</width>
-      <height>141</height>
+      <x>350</x>
+      <y>70</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -983,9 +1331,110 @@ background-image: url(:/Images/P1 (0).png);</string>
     </property>
     <property name="iconSize">
      <size>
-      <width>151</width>
-      <height>151</height>
+      <width>101</width>
+      <height>101</height>
      </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1460</x>
+      <y>50</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jugadores</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>100</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Player 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>160</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Player 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1590</x>
+      <y>90</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1600</x>
+      <y>150</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="P1">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1470</x>
+      <y>90</y>
+      <width>104</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="P2">
+    <property name="geometry">
+     <rect>
+      <x>1470</x>
+      <y>150</y>
+      <width>104</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>210</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Para poder iniciar hay que ingresar ambos nombres y darle a submit</string>
     </property>
    </widget>
   </widget>

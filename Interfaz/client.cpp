@@ -19,7 +19,7 @@ Client::Client()
     std::string Client::abrir_socket(char *message){
         int obj_socket = 0, reader;
         struct sockaddr_in serv_addr;
-        char buffer[1024] = {0};
+        char buffer[2024] = {0};
 
         if ((obj_socket = socket (AF_INET, SOCK_STREAM, 0))< 0){
                 printf("Error en creacion del socket");
